@@ -3,11 +3,11 @@
   }
   
   html, body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Mukta', sans-serif;
   }
   
   h1, h2, h3, h4, h5 {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Coiny', cursive;
   }
 
   header {
@@ -21,7 +21,8 @@
     padding: 15px 0;
     color: #22283B;
   }
-nav {
+
+  nav {
   display: flex;
   width: 100%;
   max-width: 380px;
@@ -42,9 +43,31 @@ footer {
     border-bottom: 2px solid #e0e0e0;
 }
 
+footer nav {
+  display: flex;
+  width: 100%;
+  max-width: 380px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+footer nav a {
+  text-decoration: none;
+}
+
 /* About page */
 
 .about-section {
     display: flex;
     flex-wrap: wrap;
+}
+
+.selfie {
+  border-radius: 50%;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 39%;
 }
