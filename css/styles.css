@@ -34,3 +34,17 @@ nav {
 nav a {
     text-decoration: none;
 }
+
+footer {
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* About page */
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+}
