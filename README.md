@@ -1,3 +1,3 @@
-# portfolio
+# practice-site
 
-Simple & basic portfolio coded in HTML & CSS + JS
+Simple & basic website coded in HTML & CSS + JS
